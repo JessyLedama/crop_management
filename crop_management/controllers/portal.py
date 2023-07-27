@@ -27,7 +27,7 @@ class ProjectCustomerPortal(CustomerPortal):
 
     # ------------------------------------------------------------
     # My Project
-    # ------------------------------------------------------------
+    # ---------------------------zz---------------------------------
     def _project_get_page_view_values(self, project, access_token, page=1, date_begin=None, date_end=None, sortby=None, search=None, search_in='content', groupby=None, **kwargs):
         # default filter by value
         domain = [('project_id', '=', project.id)]
